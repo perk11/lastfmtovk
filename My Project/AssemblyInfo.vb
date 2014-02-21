@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("Трансляция статуса из last.fm в VK")> 
 <Assembly: AssemblyCompany("")> 
 <Assembly: AssemblyProduct("lastfmtovk")> 
-<Assembly: AssemblyCopyright("Copyright © perk11 2013")> 
+<Assembly: AssemblyCopyright("Copyright © perk11 2014")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
