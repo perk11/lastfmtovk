@@ -50,19 +50,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>3QUx62+uI/7uaZCz/wx6h4sOVzw=</dsig:DigestValue>
+        <dsig:DigestValue>oKolbWirpS6inG3WQzgXxCRh7WE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="vk.dll" size="60416">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="vk.dll" size="59904">
       <assemblyIdentity name="vk" version="1.0.5.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>xOw2+a2j/arrNftUHuYj7Ym4zfA=</dsig:DigestValue>
+        <dsig:DigestValue>ryLpDctQF1Ju9HuEGD0R7wTEuOU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
