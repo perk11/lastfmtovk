@@ -34,7 +34,7 @@
             <Component Id="ApplicationShortcut" Guid="*">
                 <Shortcut Id="ApplicationStartMenuShortcut" 
                      Name="$(var.ProductName)" 
-                   Description="My Application Description"
+                   Description="Отправка статуса в ВК из LastFM"
                     Target="[#LASTFMTOVK.EXE]"
                           WorkingDirectory="APPLICATIONROOTDIRECTORY" Icon="DesktopIcon.exe" IconIndex="0"/>
                 <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall"/>
