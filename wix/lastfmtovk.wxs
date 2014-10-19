@@ -5,7 +5,7 @@
   <?define ProductCode = "*"?>
   <?define UpgradeCode = "ACD89D6D-72CD-4715-BDE9-DCC052311819"?>
   <?define ProductVersion = "0.3.12"?>
-    <Product Id="$(var.ProductCode)" Name="$(var.ProductName)" Language="1049" Version="$(var.ProductVersion)" Manufacturer="Pereyaslov Konstantin" UpgradeCode="$(var.UpgradeCode)" Codepage="UTF-8">
+    <Product Id="$(var.ProductCode)" Name="$(var.ProductName)" Language="1049" Version="$(var.ProductVersion)" Manufacturer="Konstantin Pereyaslov" UpgradeCode="$(var.UpgradeCode)" Codepage="UTF-8">
         <Package Description="Last FM to VK"  InstallerVersion="300" Compressed="yes" />
         <Media Id="1" Cabinet="simple.cab" EmbedCab="yes" />
         <Directory Id="TARGETDIR" Name="SourceDir">
