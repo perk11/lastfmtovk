@@ -23,11 +23,11 @@
         <DirectoryRef Id="APPLICATIONROOTDIRECTORY">
 
                 <Component Id="LASTFMTOVK.EXE" DiskId="1" Guid="*">
-                    <File Id="LASTFMTOVK.EXE" Name="lastfmtovk.exe" Source="D:\Documents\dropbox\Projects\lastfmtovk\lastfmtovk\bin\Release\lastfmtovk.exe">
+                    <File Id="LASTFMTOVK.EXE" Name="lastfmtovk.exe" Source="..\bin\Release\lastfmtovk.exe">
                     </File>
                 </Component>
                 <Component Id="VK.DLL" DiskId="1" Guid="*">
-                    <File Id="VK.DLL" Name="vk.dll" Source="D:\Documents\dropbox\Projects\lastfmtovk\lastfmtovk\bin\Release\vk.dll" />
+                    <File Id="VK.DLL" Name="vk.dll" Source="..\bin\Release\vk.dll" />
                 </Component>
           </DirectoryRef>
         <DirectoryRef Id="ApplicationProgramsFolder">
@@ -107,7 +107,7 @@
 <Property Id="WixShellExecTarget" Value="[#LASTFMTOVK.EXE]" />
 <CustomAction Id="LaunchApplication" BinaryKey="WixCA" DllEntry="WixShellExec" Impersonate="yes" />
 
-        <Icon Id="DesktopIcon.exe" SourceFile="D:\Documents\dropbox\Projects\lastfmtovk\lastfmtovk\bin\Release\lastfmtovk.exe" />
+        <Icon Id="DesktopIcon.exe" SourceFile="..\bin\Release\lastfmtovk.exe" />
         <Property Id="ARPPRODUCTICON" Value="DesktopIcon.exe" />
         <Upgrade Id="$(var.UpgradeCode)">
   <UpgradeVersion Minimum="0.0.1"
