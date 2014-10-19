@@ -72,7 +72,7 @@
         </Feature>
         <Feature Id="DShortcut" Title="Ярлык на рабочем столе" Level="1">
            <ComponentRef Id="ApplicationShortcutDesktop" />
-
+        </Feature>
         <Feature Id="MShortcut" Title="Ярлыки в главном меню" Level="1">
              <ComponentRef Id="ApplicationShortcut" />
         </Feature>
