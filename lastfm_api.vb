@@ -3,7 +3,7 @@ Imports lastfmtovk.notification
 Imports vk
 
 Public Class lastfm_api
-    Const api_key = "***REMOVED***"
+    Const api_key = "PUTYOURLASTFMKEYHERE"
     Public Shared nothing_notified As Boolean = False
     Public Class user
         Public Function getlastTrack(username As String) As vk.api.audio.track.trackname
