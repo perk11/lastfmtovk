@@ -77,7 +77,7 @@
              <ComponentRef Id="ApplicationShortcut" />
         </Feature>
         <PropertyRef Id="NETFRAMEWORK40FULL"/>
-        <Condition  Message="Для этого приложения нужен .NET Framework 4"> <![CDATA[Installed OR NETFRAMEWORK40FULL]]></Condition>
+        <Condition  Message="Для этого приложения нужен .NET Framework 4. Скачайте и установите его с сайта Microsoft"> <![CDATA[Installed OR NETFRAMEWORK40FULL]]></Condition>
       <UI Id="UserInterface">
   <Property Id="WIXUI_INSTALLDIR" Value="TARGETDIR" />
   <Property Id="WixUI_Mode" Value="Custom" />
